@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
 
 @theme {
   --color-primary: #030014;
@@ -161,3 +163,14 @@
   }
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.logo {
+  height: 50px; /* adjust as needed */
+  width: auto;
+}
