@@ -6,7 +6,7 @@ const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
 
 //Appwrite Client Initialization
 const client = new Client()
-    .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT) // Your Appwrite Endpoint
+    .setEndpoint('https://fra.cloud.appwrite.io/v1')
     .setProject(PROJECT_ID);
 
 
