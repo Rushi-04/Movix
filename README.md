@@ -2,6 +2,11 @@
 
 Movix is a web application that allows users to search for movies, view trending movies, and see details about each movie. It utilizes the The Movie Database (TMDb) API for movie data and Appwrite for tracking trending searches.
 
+## Live Project Link 
+  https://movix-arena.vercel.app/  
+  
+  ( Used 'TMDb Movie API' so use vpn and then open website to load movies )
+
 ## Features
 
 - **Search for movies:** Users can search for movies by title.
@@ -37,7 +42,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. **Clone the repo**
    ```sh
-   git clone https://github.com/your_username/movix.git
+   git clone https://github.com/Rushi-04/React-Movie-App.git
    ```
 2. **Install NPM packages**
    ```sh
@@ -92,16 +97,3 @@ Once the development server is running, you can open your browser and navigate t
 └── vite.config.js
 ```
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
