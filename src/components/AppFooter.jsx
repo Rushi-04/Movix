@@ -16,7 +16,7 @@ import {
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 const AppFooter = () => {
   return (
-    <Footer container className='h-55'>
+    <Footer container className='h-full'>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
